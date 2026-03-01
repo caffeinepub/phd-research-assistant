@@ -102,14 +102,13 @@ function AppContent() {
                 <div className="w-8 h-8 rounded-xl overflow-hidden border border-primary/30 shrink-0">
                   <img
                     src="/assets/generated/phd-research-logo-transparent.dim_64x64.png"
-                    alt="PhD Research Assistant logo"
+                    alt="ResAssta logo"
                     className="w-full h-full object-cover"
                   />
                 </div>
                 <div>
                   <h1 className="font-display text-base font-bold text-foreground leading-none">
-                    <span className="text-gradient">PhD</span> Research
-                    Assistant
+                    <span className="text-gradient">Res</span>Assta
                   </h1>
                   <p className="text-[10px] text-muted-foreground leading-none mt-0.5 tracking-wide">
                     AI-powered research discovery
@@ -206,8 +205,8 @@ function AppContent() {
         <footer className="border-t border-border/40 py-4 px-6 relative z-10">
           <div className="max-w-5xl mx-auto flex items-center justify-between text-xs text-muted-foreground">
             <span>
-              PhD Research Assistant — arXiv · Semantic Scholar · Shodhganga ·
-              Global Repositories
+              ResAssta — arXiv · Semantic Scholar · Shodhganga · Global
+              Repositories
             </span>
             <a
               href={`https://caffeine.ai?utm_source=caffeine-footer&utm_medium=referral&utm_content=${encodeURIComponent(window.location.hostname)}`}

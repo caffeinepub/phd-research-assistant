@@ -35,7 +35,7 @@ export function ProfileSetupModal() {
         institution: institution.trim() || null,
         researchField: researchField.trim() || null,
       });
-      toast.success("Profile created! Welcome to PhD Research Assistant.");
+      toast.success("Profile created! Welcome to ResAssta.");
     } catch {
       toast.error("Failed to create profile. Please try again.");
     }

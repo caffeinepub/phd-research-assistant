@@ -58,12 +58,12 @@ function LoginPage() {
             <div className="w-8 h-8 rounded-xl overflow-hidden border border-primary/30">
               <img
                 src="/assets/generated/phd-research-logo-transparent.dim_64x64.png"
-                alt="PhD Research Assistant"
+                alt="ResAssta"
                 className="w-full h-full object-cover"
               />
             </div>
             <span className="font-display text-base font-bold text-foreground">
-              <span className="text-gradient">PhD</span> Research Assistant
+              <span className="text-gradient">Res</span>Assta
             </span>
           </div>
         </header>
@@ -132,7 +132,7 @@ function LoginPage() {
                   <div className="w-16 h-16 rounded-2xl overflow-hidden border border-primary/30 mx-auto mb-4">
                     <img
                       src="/assets/generated/phd-research-logo-transparent.dim_64x64.png"
-                      alt="PhD Research Assistant"
+                      alt="ResAssta"
                       className="w-full h-full object-cover"
                     />
                   </div>
@@ -201,7 +201,7 @@ export function AuthGuard({ children }: AuthGuardProps) {
           <div className="w-12 h-12 rounded-2xl overflow-hidden border border-primary/30">
             <img
               src="/assets/generated/phd-research-logo-transparent.dim_64x64.png"
-              alt="PhD Research Assistant"
+              alt="ResAssta"
               className="w-full h-full object-cover"
             />
           </div>
